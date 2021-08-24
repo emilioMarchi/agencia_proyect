@@ -197,7 +197,7 @@ footer div a img:hover {
   transform: scale(105%);
 }
 
-header .navbar-desk ul, .container-home, .container-home .title .subtitle, .section-s .cards-s, .section-p .cards-p, .section-e .cards-e {
+header .navbar-desk ul, .container-home, .container-home .title .subtitle, .section-s, .section-s .cards-s, .section-p .cards-p, .section-e .cards-e {
   display: flex;
 }
 
