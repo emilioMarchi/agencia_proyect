@@ -22,34 +22,37 @@ header .navbar {
   width: 100%;
   height: 50px;
 }
-header .navbar img {
-  height: 3rem;
-  margin: 0rem 3rem;
+header .navbar .container-fluid .list-items {
+  justify-content: space-evenly;
 }
-header .navbar ul li {
+header .navbar .container-fluid .list-items ul li {
   list-style: none;
   margin: 0.5rem;
 }
-header .navbar ul li a {
+header .navbar .container-fluid .list-items ul li a {
   color: #f7f2fa;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
   transition: all 0.5s;
 }
-header .navbar ul li a:hover {
+header .navbar .container-fluid .list-items ul li a:hover {
   background-color: rgba(247, 228, 199, 0.288);
   backdrop-filter: blur(5px);
 }
-header .navbar ul li a:active {
+header .navbar .container-fluid .list-items ul li a:active {
   background-color: rgba(247, 238, 224, 0.616);
   backdrop-filter: blur(5px);
 }
+header .navbar img {
+  height: 3rem;
+  margin: 0rem 3rem;
+}
 
 .container-home {
-  padding: 5% 2%;
+  padding: 5% 0;
   height: 100vh;
 }
 .container-home .title {
@@ -187,7 +190,7 @@ footer div a img:hover {
   transform: scale(105%);
 }
 
-header .navbar ul, .container-home, .container-home .title .subtitle, .section-e .cards-e {
+header .navbar .container-fluid .list-items ul, .container-home, .container-home .title .subtitle, .section-e .cards-e {
   display: flex;
 }
 
