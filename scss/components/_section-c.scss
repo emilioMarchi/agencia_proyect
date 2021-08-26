@@ -1,0 +1,24 @@
+.section-c {
+    @extend %container;
+    text-align: center;
+    h3 {
+        @extend %h3;
+        padding-top: 3rem;
+    }
+    
+    .form-container {
+        @extend %card;
+        padding: 2rem;
+        margin-top: 3rem;
+
+        form {
+            max-width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+
+            label {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

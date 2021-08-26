@@ -1,0 +1,25 @@
+.section-e {
+    @extend %container;
+    text-align: center;
+    h3 {
+        @extend %h3;
+        padding-top: 3rem;
+    }
+
+    .title-e {
+        h3 {
+            @extend %h3;
+        }
+        h4 {
+            padding-top: 1rem
+        }
+    }
+    .cards-e {
+        @extend %flex;
+        justify-content: center;
+        
+        .card {
+            @extend %card;
+        }
+    }
+}

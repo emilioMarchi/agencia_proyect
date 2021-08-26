@@ -1,0 +1,98 @@
+%flex {
+    display: flex;
+}
+
+%container {
+    height: 100vh;
+}
+%h3 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1;
+}
+%h4 {
+    font-size: 2.2rem;
+    font-weight: 300;
+}
+%h5 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+%animated-title {
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+%button {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    background-color: rgba(122, 37, 156, 0.719);
+    backdrop-filter: blur(5px);
+}
+
+%navbar {
+    padding: 0.5rem 2rem;
+    background-color: rgba(177, 171, 148, 0.555);
+}
+
+%card{
+    background-color: rgba(63, 10, 43, 0.185);
+    backdrop-filter: blur(10px);
+    margin: 2rem;
+    align-items: center;
+    transition: all 0.5s;
+    padding: 0.5rem;
+    height: 80%;
+    img {
+        max-width: 60%;
+        transition: all 0.6s;
+    }
+    h5 {
+        @extend %h5;
+    }
+    .btn {
+        padding: 1rem;
+        color: blanchedalmond;
+        background-color: rgba(31, 10, 36, 0.24);
+    }
+    &:hover {
+        img{
+            transform: scale(110%);
+        }
+        transform: scale(105%);
+        background-color: rgba(59, 24, 39, 0.521);
+    }
+    
+}
+%footer {
+    width: 33%;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    background-color: rgba(24, 2, 16, 0.233);
+    backdrop-filter: blur(20px);
+    border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    %h3 {
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    %h5 {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    %card {
+        .btn{
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+footer {
+    @extend %footer;
+    div {
+        text-align: center;
+        a{
+            margin: 0.5rem;
+            img{
+                max-width: 2rem;
+                transition: all 0.3s;
+                &:hover {
+                    transform: scale(105%);
+                }
+            }
+
+        }
+    }
+}

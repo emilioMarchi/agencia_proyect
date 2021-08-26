@@ -1,0 +1,37 @@
+.section-p {
+    @extend %container;
+    display: flex;
+
+    text-align: center;
+
+    .title-p {
+        padding-top: 6rem;
+        h3 {
+            @extend %h3;
+        }
+        h4 {
+            @extend %h4;
+            padding-top: 2rem
+        }
+    }
+
+    .img-container {
+        
+        .img-p {
+            padding-top: 2rem;
+            padding-left: 3rem;
+            
+            img {
+                height: 28rem;
+            }
+        }
+
+        .btn-p {
+
+            button {
+                @extend %button;
+            }
+        }
+
+    }
+}
