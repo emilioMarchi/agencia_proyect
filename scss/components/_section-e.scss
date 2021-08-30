@@ -1,25 +1,49 @@
 .section-e {
     @extend %container;
+    display: flex;
+
     text-align: center;
-    h3 {
-        @extend %h3;
-        padding-top: 3rem;
-    }
 
     .title-e {
+        padding: 3rem;
+        padding-top: 6rem;
+
+        background: linear-gradient(
+        to right, 
+        hsl(899 90% 90%), 
+        hsl(247 20% 60%)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
         h3 {
             @extend %h3;
         }
         h4 {
-            padding-top: 1rem
+            @extend %h4;
+            padding-top: 2rem
+        }
+        span {
+            @extend %animated-title;
         }
     }
-    .cards-e {
-        @extend %flex;
-        justify-content: center;
-        
-        .card {
-            @extend %card;
+
+    .img-container {
+        padding: 3rem;
+        .img-e {
+            padding-top: 1rem;
+            padding-left: 3rem;
+            
+            img {
+                height: 25rem;
+            }
         }
+
+        .btn-e {
+            margin-left: 3rem;
+            button {
+                @extend %button;
+            }
+        }
+
     }
 }

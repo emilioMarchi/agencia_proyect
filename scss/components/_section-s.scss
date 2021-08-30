@@ -34,12 +34,13 @@
                 padding-left: 3rem;
                 
                 img {
-                    height: 27rem;
+                    margin-top: 2rem;
+                    height: 20rem;
                 }
             }
 
             .btn-s {
-
+                margin-left: 2rem;
                 button {
                     @extend %button;
                 }

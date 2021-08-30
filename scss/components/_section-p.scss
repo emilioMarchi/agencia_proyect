@@ -5,7 +5,16 @@
     text-align: center;
 
     .title-p {
+        padding: 3rem;
         padding-top: 6rem;
+
+        background: linear-gradient(
+        to right, 
+        hsl(899 90% 90%), 
+        hsl(247 20% 60%)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
         h3 {
             @extend %h3;
         }
@@ -13,20 +22,25 @@
             @extend %h4;
             padding-top: 2rem
         }
+        span {
+            @extend %animated-title;
+        }
     }
 
     .img-container {
-        
+        padding: 3rem;
         .img-p {
-            padding-top: 2rem;
+            padding-top: 1rem;
             padding-left: 3rem;
             
             img {
-                height: 28rem;
+                height: 23rem;
+                margin-top: 3rem
             }
         }
 
         .btn-p {
+            margin-left: 2rem;
 
             button {
                 @extend %button;
