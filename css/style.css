@@ -18,7 +18,7 @@ header .navbar {
   margin: 0.5rem 4rem;
   backdrop-filter: blur(10px);
   background-color: rgba(13, 5, 15, 0.76);
-  border-radius: 2rem;
+  border-radius: 0.5rem;
 }
 header .navbar .container-fluid .list-items {
   justify-content: space-evenly;
@@ -54,7 +54,7 @@ header .navbar img {
 }
 
 .container-home {
-  padding: 8% 0;
+  padding-top: 8%;
   height: 100vh;
   margin-left: auto;
   margin-right: auto;
