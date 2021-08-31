@@ -1,6 +1,7 @@
 .section-e {
     @extend %container;
     display: flex;
+    align-items: center;
     padding: 5% 3%;
 
     .title-e {
@@ -24,6 +25,10 @@
         span {
             @extend %animated-title;
         }
+
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
     }
 
     .img-container {
@@ -44,6 +49,9 @@
             }
         }
 
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
 
     }
 }

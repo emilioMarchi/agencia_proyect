@@ -1,11 +1,12 @@
 .section-p {
     @extend %container;
     display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
     padding: 5% 3%;
 
     .title-p {
         padding: 3rem;
-        padding-top: 6rem;
 
         background: linear-gradient(
         to right, 
@@ -23,6 +24,10 @@
         }
         span {
             @extend %animated-title;
+        }
+
+        @media only screen and (max-width: 768px) {
+            display: none;
         }
     }
 
@@ -44,6 +49,10 @@
             button {
                 @extend %button;
             }
+        }
+
+        @media only screen and (max-width: 768px) {
+            display: none;
         }
 
     }

@@ -1,10 +1,10 @@
 .section-s {
         @extend %container;
         display: flex;
+        align-items: center;
         padding: 5% 3%;
 
         .title-s {
-            padding-top: 6rem;
             padding-left: 2rem;
             background: linear-gradient(
             to right, 
@@ -22,6 +22,10 @@
             }
             span {
                 @extend %animated-title;
+            }
+
+            @media only screen and (max-width: 768px) {
+                display: none;
             }
         }
 
@@ -43,5 +47,11 @@
                 }
             }
 
+            .content-s-mobile {
+                display: none;
+            }
+            @media only screen and (max-width: 768px) {
+                display: none;
+            }
         }
 }

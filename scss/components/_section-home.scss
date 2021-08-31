@@ -1,6 +1,5 @@
 .container-home {
     @extend %flex;
-    padding: 8% 5%;
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
@@ -44,37 +43,16 @@
         }
         
     }
+    @media only screen and (max-width: 768px) {
+
+        padding: 15% 8%;
+
+        .img-home {
+            display: none;
+        }
+    
+    }
 }
     
 
 
-@media only screen and (max-width: 768px) {
-    .container-home{
-        display: block;
-
-        div{
-            width: 100%;
-        }
-        .title {
-
-            margin: 0;
-        }
-        .title h2 {
-            font-size: 5em;
-            line-height: 1;
-        }
-        .title h1 {
-            font-size: 3rem;
-        }
-        .subtitle {
-            margin-top: 2rem;
-
-            img {
-                margin-left: 2rem;
-            }
-        }
-    }
-    .img-home {
-        display: none;
-    }
-}
