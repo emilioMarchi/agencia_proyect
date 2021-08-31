@@ -34,16 +34,16 @@
             padding-left: 3rem;
             
             img {
-                width: 85%;
+                width: 90%;
             }
         }
-
         .btn-e {
             margin-left: 3rem;
             button {
                 @extend %button;
             }
         }
+
 
     }
 }

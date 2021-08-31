@@ -91,7 +91,7 @@ header .navbar .navbar-toggler .navbar-toggler-icon {
   text-align: center;
 }
 .container-home .img-home img {
-  height: 25rem;
+  width: 70%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -144,8 +144,7 @@ header .navbar .navbar-toggler .navbar-toggler-icon {
   padding-top: 1rem;
 }
 .section-s .img-container .img-s img {
-  margin-top: 2rem;
-  width: 80%;
+  width: 85%;
 }
 .section-s .img-container .btn-s {
   margin-left: 2rem;
@@ -201,7 +200,7 @@ header .navbar .navbar-toggler .navbar-toggler-icon {
   padding-left: 3rem;
 }
 .section-e .img-container .img-e img {
-  width: 85%;
+  width: 90%;
 }
 .section-e .img-container .btn-e {
   margin-left: 3rem;
@@ -260,7 +259,7 @@ header .navbar .container-fluid .list-items ul, .container-home, .container-home
 }
 
 .section-s .title-s h3, .section-p .title-p h3, .section-e .title-e h3, .section-c .title-c h3 {
-  font-size: 3.6rem;
+  font-size: 3rem;
   font-weight: 600;
   line-height: 1;
 }
