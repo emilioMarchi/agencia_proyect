@@ -2,8 +2,6 @@
     @extend %container;
     display: flex;
 
-    text-align: center;
-
     .title-e {
         padding: 3rem;
         padding-top: 6rem;
@@ -29,6 +27,7 @@
 
     .img-container {
         padding: 3rem;
+        text-align: center;
         .img-e {
             padding-top: 1rem;
             padding-left: 3rem;
