@@ -52,12 +52,16 @@ header .navbar img {
   height: 3rem;
   margin: 0rem 3rem;
 }
+header .navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("images/img-point.png");
+}
 
 .container-home {
-  padding-top: 8%;
+  padding: 8% 5%;
   height: 100vh;
   margin-left: auto;
   margin-right: auto;
+  padding: 8% 3%;
 }
 .container-home .title {
   width: 50%;
@@ -120,6 +124,7 @@ header .navbar img {
 }
 .section-s {
   display: flex;
+  padding: 5% 3%;
 }
 .section-s .title-s {
   padding-top: 6rem;
@@ -140,13 +145,14 @@ header .navbar img {
 }
 .section-s .img-container .img-s img {
   margin-top: 2rem;
-  height: 21rem;
+  width: 80%;
 }
 .section-s .img-container .btn-s {
   margin-left: 2rem;
 }
 .section-p {
   display: flex;
+  padding: 5% 3%;
 }
 .section-p .title-p {
   padding: 3rem;
@@ -166,7 +172,7 @@ header .navbar img {
   padding-top: 1rem;
 }
 .section-p .img-container .img-p img {
-  height: 23rem;
+  width: 90%;
   margin-top: 3rem;
 }
 .section-p .img-container .btn-p {
@@ -174,6 +180,7 @@ header .navbar img {
 }
 .section-e {
   display: flex;
+  padding: 5% 3%;
 }
 .section-e .title-e {
   padding: 3rem;
@@ -190,17 +197,18 @@ header .navbar img {
   text-align: center;
 }
 .section-e .img-container .img-e {
-  padding-top: 1rem;
+  padding-top: 3rem;
   padding-left: 3rem;
 }
 .section-e .img-container .img-e img {
-  height: 25rem;
+  width: 85%;
 }
 .section-e .img-container .btn-e {
   margin-left: 3rem;
 }
 .section-c {
   display: flex;
+  padding: 5% 3%;
 }
 .section-c .title-c {
   padding: 3rem;
@@ -249,7 +257,6 @@ header .navbar .container-fluid .list-items ul, .container-home, .container-home
 
 .section-s, .section-p, .section-e, .section-c {
   height: 100vh;
-  padding-top: 2rem;
 }
 
 .section-s .title-s h3, .section-p .title-p h3, .section-e .title-e h3, .section-c .title-c h3 {

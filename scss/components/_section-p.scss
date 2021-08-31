@@ -1,6 +1,7 @@
 .section-p {
     @extend %container;
     display: flex;
+    padding: 5% 3%;
 
     .title-p {
         padding: 3rem;
@@ -32,7 +33,7 @@
             padding-top: 1rem;
             
             img {
-                height: 23rem;
+                width: 90%;
                 margin-top: 3rem
             }
         }

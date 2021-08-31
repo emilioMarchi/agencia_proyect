@@ -1,6 +1,7 @@
 .section-e {
     @extend %container;
     display: flex;
+    padding: 5% 3%;
 
     .title-e {
         padding: 3rem;
@@ -29,11 +30,11 @@
         padding: 3rem;
         text-align: center;
         .img-e {
-            padding-top: 1rem;
+            padding-top: 3rem;
             padding-left: 3rem;
             
             img {
-                height: 25rem;
+                width: 85%;
             }
         }
 

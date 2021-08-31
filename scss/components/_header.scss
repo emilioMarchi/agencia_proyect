@@ -48,6 +48,11 @@ header {
             height: 3rem;
             margin: 0rem 3rem;
         }
-        
+        .navbar-toggler {
+            
+            .navbar-toggler-icon {
+                background-image: url('images/img-point.png');
+            }
+        }
     }
 }
