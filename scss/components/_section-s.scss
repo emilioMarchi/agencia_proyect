@@ -6,6 +6,7 @@
 
         .title-s {
             padding-left: 2rem;
+            width: 50%;
             background: linear-gradient(
             to right, 
             hsl(899 90% 90%), 
@@ -20,17 +21,11 @@
                 @extend %h4;
                 padding-top: 2rem
             }
-            span {
-                @extend %animated-title;
-            }
-
-            @media only screen and (max-width: 768px) {
-                display: none;
-            }
         }
 
         .img-container {
             padding: 5rem;
+            width: 50%;
             text-align: center;
             .img-s {
                 padding-top: 1rem;
@@ -39,19 +34,37 @@
                     width: 85%;
                 }
             }
-
+            
             .btn-s {
                 margin-left: 2rem;
                 button {
                     @extend %button;
                 }
             }
+        }
+        @media only screen and (max-width: 425px) {
 
-            .content-s-mobile {
-                display: none;
+            padding: 25% 8% 5%;
+
+            h3 {
+                font-size: 1rem;
             }
-            @media only screen and (max-width: 768px) {
-                display: none;
+            h4 {
+                font-size: 1rem;
+            }
+            .title-s {
+            }
+
+        }
+        @media only screen and (max-width: 985px) {
+            display: block;
+            padding-top: 4rem;
+
+            .title-s {
+                width: 100%;
+            }
+            .img-container {
+                width: 100%;
             }
         }
 }

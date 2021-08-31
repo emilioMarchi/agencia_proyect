@@ -6,8 +6,7 @@
     padding: 5% 3%;
     
     .title-c {
-        padding: 3rem;
-        padding-top: 6rem;
+        width: 50%;
         
         background: linear-gradient(
             to right, 
@@ -23,11 +22,6 @@
                 @extend %h4;
                 padding-top: 2rem
             }
-            span {
-                @extend %animated-title;
-            }
-            
-            
         }
         .form-container {
             
@@ -35,9 +29,7 @@
             margin-top: 6rem;
             
             form {
-                width: 15rem;
-                margin-left: auto;
-                margin-right: auto;
+                width: 100%;
                 
                 text-align: center;
                 label {
@@ -48,7 +40,14 @@
                 }
             }
         }
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 985px) {
             display: block;
+            padding-top: 4rem;
+            .title-c {
+                width: 100%;
+            }
+            .form-container {
+                margin-top: 0;
+            }
         }
     }

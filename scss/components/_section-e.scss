@@ -6,6 +6,7 @@
 
     .title-e {
         padding: 3rem;
+        width: 50%;
         padding-top: 6rem;
 
         background: linear-gradient(
@@ -22,17 +23,11 @@
             @extend %h4;
             padding-top: 2rem
         }
-        span {
-            @extend %animated-title;
-        }
-
-        @media only screen and (max-width: 768px) {
-            display: none;
-        }
     }
 
     .img-container {
         padding: 3rem;
+        width: 50%;
         text-align: center;
         .img-e {
             padding-top: 3rem;
@@ -49,9 +44,23 @@
             }
         }
 
-        @media only screen and (max-width: 768px) {
-            display: none;
-        }
+    }
 
+    @media only screen and (max-width: 985px) {
+        display: block;
+        padding-top: 4rem;
+
+        .title-e {
+            width: 100%;
+        }
+        .img-container {
+            width: 100%;
+
+            .img-e {
+                img {
+                    width: 70%;
+                }
+            }
+        }
     }
 }
