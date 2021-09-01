@@ -7,6 +7,7 @@
 
     .title-p {
         padding: 3rem;
+        padding-bottom: 0;
         width: 50%;
 
         background: linear-gradient(
@@ -16,12 +17,24 @@
       );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-        h3 {
-            @extend %h3;
+      h3 {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1;
+        @media only screen and (max-width: 425px) {
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1;
         }
+            
+        }  
         h4 {
-            @extend %h4;
-            padding-top: 2rem
+            font-size: 2.2rem;
+            font-weight: 300;
+            @media only screen and (max-width: 425px) {
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
         }
     }
 
@@ -34,10 +47,11 @@
             
             img {
                 width: 90%;
-                margin-top: 3rem
+                margin-top: 3rem;
+
             }
         }
-
+        
         .btn-p {
             margin-left: 2rem;
 
@@ -45,23 +59,28 @@
                 @extend %button;
             }
         }
-
+        
     }
     @media only screen and (max-width: 985px) {
         display: block;
         padding-top: 4rem;
-
+        
         .title-p {
             width: 100%;
         }
         .img-container {
             width: 100%;
             padding-top: 0;
-
+            
             .img-p {
                 img {
                     
                     width: 70%;
+                    
+                    @media only screen and (max-width: 425px) {
+                        width: 90%;
+                    }
+                    
                 }
             }
         }
