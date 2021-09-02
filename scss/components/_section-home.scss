@@ -1,12 +1,8 @@
-.container-home {
+.content-h {
     @extend %flex;
+    align-items: center;
     height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 8% 3% 0%;
     .title {
-        width: 50%;
-        height: 100%;
 
         background: linear-gradient(
             to right, 
@@ -23,7 +19,6 @@
         
         .subtitle {
             @extend %flex;
-            padding-top: 4rem;
             align-items: center;
             h1 {
                 font-family: 'Roboto Mono';
@@ -40,12 +35,15 @@
         text-align: center;
         img{
             width: 70%;
+            
+            @media only screen and (max-width: 992px) {
+                width: 40%;
+            }
         }
+
         
     }
     @media only screen and (max-width: 768px) {
-        
-        padding: 15% 8%;
         
         .title {
             h2 {
@@ -53,15 +51,9 @@
             }
         }
         
-        .img-home {
-            display: none;
-        }
-        
     }
     @media only screen and (max-width: 425px) {
-
-        padding: 50% 8% 5%;
-
+        
         .title {
             h2 {
                 font-size: 3.5rem;
@@ -73,9 +65,9 @@
             }
         }
 
-    
+        
     }
 }
-    
+
 
 

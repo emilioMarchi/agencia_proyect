@@ -57,61 +57,52 @@ header .navbar .navbar-toggler .navbar-toggler-icon {
   background-image: url("/images/menu-icon.png");
 }
 
-.container-home {
+.content-s {
+  align-items: center;
   height: 100vh;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 8% 3% 0%;
 }
-.container-home .title {
-  width: 50%;
-  height: 100%;
+.content-s .title {
   background: linear-gradient(to right, #cffcfc, #8985ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.container-home .title h2 {
+.content-s .title h2 {
   font-size: 4.5rem;
   line-height: 1;
 }
-.container-home .title .subtitle {
-  padding-top: 4rem;
+.content-s .title .subtitle {
   align-items: center;
 }
-.container-home .title .subtitle h1 {
+.content-s .title .subtitle h1 {
   font-family: "Roboto Mono";
   font-weight: 400;
   letter-spacing: 10;
   line-height: 1.1;
 }
-.container-home .title .subtitle img {
+.content-s .title .subtitle img {
   height: 12rem;
 }
-.container-home .img-home {
+.content-s .img-home {
   text-align: center;
 }
-.container-home .img-home img {
+.content-s .img-home img {
   width: 70%;
 }
+@media only screen and (max-width: 992px) {
+  .content-s .img-home img {
+    width: 40%;
+  }
+}
 @media only screen and (max-width: 768px) {
-  .container-home {
-    padding: 15% 8%;
-  }
-  .container-home .title h2 {
+  .content-s .title h2 {
     font-size: 6rem;
-  }
-  .container-home .img-home {
-    display: none;
   }
 }
 @media only screen and (max-width: 425px) {
-  .container-home {
-    padding: 50% 8% 5%;
-  }
-  .container-home .title h2 {
+  .content-s .title h2 {
     font-size: 3.5rem;
   }
-  .container-home .title .subtitle img {
+  .content-s .title .subtitle img {
     height: 8rem;
   }
 }
@@ -409,7 +400,7 @@ footer div a img:hover {
   transform: scale(105%);
 }
 
-header .navbar .container-fluid .list-items ul, .container-home, .container-home .title .subtitle {
+header .navbar .container-fluid .list-items ul, .content-s, .content-s .title .subtitle {
   display: flex;
 }
 
