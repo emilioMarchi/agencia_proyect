@@ -57,52 +57,52 @@ header .navbar .navbar-toggler .navbar-toggler-icon {
   background-image: url("/images/menu-icon.png");
 }
 
-.content-s {
+.content-h {
   align-items: center;
   height: 100vh;
 }
-.content-s .title {
+.content-h .title {
   background: linear-gradient(to right, #cffcfc, #8985ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.content-s .title h2 {
+.content-h .title h2 {
   font-size: 4.5rem;
   line-height: 1;
 }
-.content-s .title .subtitle {
+.content-h .title .subtitle {
   align-items: center;
 }
-.content-s .title .subtitle h1 {
+.content-h .title .subtitle h1 {
   font-family: "Roboto Mono";
   font-weight: 400;
   letter-spacing: 10;
   line-height: 1.1;
 }
-.content-s .title .subtitle img {
+.content-h .title .subtitle img {
   height: 12rem;
 }
-.content-s .img-home {
+.content-h .img-home {
   text-align: center;
 }
-.content-s .img-home img {
+.content-h .img-home img {
   width: 70%;
 }
 @media only screen and (max-width: 992px) {
-  .content-s .img-home img {
+  .content-h .img-home img {
     width: 40%;
   }
 }
 @media only screen and (max-width: 768px) {
-  .content-s .title h2 {
+  .content-h .title h2 {
     font-size: 6rem;
   }
 }
 @media only screen and (max-width: 425px) {
-  .content-s .title h2 {
+  .content-h .title h2 {
     font-size: 3.5rem;
   }
-  .content-s .title .subtitle img {
+  .content-h .title .subtitle img {
     height: 8rem;
   }
 }
@@ -400,7 +400,7 @@ footer div a img:hover {
   transform: scale(105%);
 }
 
-header .navbar .container-fluid .list-items ul, .content-s, .content-s .title .subtitle {
+header .navbar .container-fluid .list-items ul, .content-h, .content-h .title .subtitle {
   display: flex;
 }
 
