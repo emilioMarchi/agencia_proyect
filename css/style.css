@@ -3,6 +3,7 @@
 * {
   padding: none;
   margin: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,25 +11,33 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 3px;
   color: #fff7df;
-  width: 100vw;
 }
 
-header .navbar {
+@media only screen and (max-width: 425px) {
+  main {
+    margin: 0;
+    padding: 0;
+  }
+}
+main section {
+  padding: 10% 0;
+}
+
+header .nav {
   display: flex;
   justify-content: space-evenly;
-  margin: 0.5rem 4rem;
   backdrop-filter: blur(10px);
   background-color: rgba(13, 5, 15, 0.76);
-  border-radius: 0.5rem;
+  text-align: center;
 }
-header .navbar .container-fluid .list-items {
+header .nav .container-fluid .list-items {
   justify-content: space-evenly;
 }
-header .navbar .container-fluid .list-items ul li {
+header .nav .container-fluid .list-items ul li {
   list-style: none;
   margin: 0.5rem;
 }
-header .navbar .container-fluid .list-items ul li a {
+header .nav .container-fluid .list-items ul li a {
   color: #f7ecfc;
   font-size: 1rem;
   font-weight: 300;
@@ -39,21 +48,21 @@ header .navbar .container-fluid .list-items ul li a {
   border-radius: 0.3rem;
   transition: all 0.5s;
 }
-header .navbar .container-fluid .list-items ul li a:hover {
+header .nav .container-fluid .list-items ul li a:hover {
   color: #1d031d;
   font-weight: 500;
   background-color: rgba(247, 228, 199, 0.288);
   backdrop-filter: blur(5px);
 }
-header .navbar .container-fluid .list-items ul li a:active {
+header .nav .container-fluid .list-items ul li a:active {
   background-color: rgba(247, 238, 224, 0.616);
   backdrop-filter: blur(5px);
 }
-header .navbar img {
+header .nav img {
   height: 3rem;
   margin: 0rem 3rem;
 }
-header .navbar .navbar-toggler .navbar-toggler-icon {
+header .nav .navbar-toggler .navbar-toggler-icon {
   background-image: url("/images/menu-icon.png");
 }
 
@@ -70,7 +79,21 @@ header .navbar .navbar-toggler .navbar-toggler-icon {
   font-size: 5rem;
   line-height: 1;
 }
+@media only screen and (max-width: 992px) {
+  .content-h .title h2 {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .content-h .title h2 {
+    font-size: 2.7rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    text-align: center;
+  }
+}
 .content-h .title .subtitle {
+  width: 100%;
   align-items: center;
 }
 .content-h .title .subtitle h1 {
@@ -79,42 +102,49 @@ header .navbar .navbar-toggler .navbar-toggler-icon {
   letter-spacing: 10;
   line-height: 1.1;
 }
+@media only screen and (max-width: 425px) {
+  .content-h .title .subtitle h1 {
+    font-size: 1.5rem;
+  }
+}
 .content-h .title .subtitle img {
   height: 12rem;
+}
+@media only screen and (max-width: 425px) {
+  .content-h .title .subtitle img {
+    height: 7rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .content-h .title .subtitle {
+    justify-content: center;
+  }
 }
 .content-h .img-home {
   text-align: center;
 }
 .content-h .img-home img {
-  width: 70%;
+  width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media only screen and (max-width: 992px) {
   .content-h .img-home img {
-    width: 40%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .content-h .title h2 {
-    font-size: 6rem;
+    width: 27rem;
   }
 }
 @media only screen and (max-width: 425px) {
-  .content-h .title h2 {
-    font-size: 3.5rem;
-  }
-  .content-h .title .subtitle img {
-    height: 8rem;
+  .content-h .img-home img {
+    width: 15rem;
   }
 }
 
 .section-s {
-  display: flex;
   align-items: center;
-  padding: 5% 1.5%;
+  height: 100vh;
 }
 .section-s .title-s {
-  padding-left: 2rem;
-  width: 50%;
+  width: 100%;
   background: linear-gradient(to right, #cffcfc, #8985ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -124,55 +154,52 @@ header .navbar .navbar-toggler .navbar-toggler-icon {
   font-weight: 600;
   line-height: 1;
 }
+@media only screen and (max-width: 992px) {
+  .section-s .title-s h3 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+}
 @media only screen and (max-width: 425px) {
   .section-s .title-s h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding-top: 3rem;
   }
 }
 .section-s .title-s h4 {
   font-size: 2.2rem;
   font-weight: 300;
 }
+@media only screen and (max-width: 992px) {
+  .section-s .title-s h4 {
+    font-size: 2.7rem;
+    font-weight: 300;
+  }
+}
 @media only screen and (max-width: 425px) {
   .section-s .title-s h4 {
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .section-s .title-s {
+    text-align: center;
   }
 }
 .section-s .img-container {
-  padding: 2rem;
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
-.section-s .img-container .img-s {
-  padding-top: 1rem;
-}
 .section-s .img-container .img-s img {
-  width: 85%;
-}
-.section-s .img-container .btn-s {
-  margin-left: 2rem;
+  width: 25rem;
 }
 @media only screen and (max-width: 425px) {
-  .section-s {
-    padding: 25% 8% 5%;
+  .section-s .img-container .img-s img {
+    width: 15rem;
   }
 }
-@media only screen and (max-width: 985px) {
-  .section-s {
-    display: block;
-    padding-top: 4rem;
-  }
-  .section-s .title-s {
-    width: 100%;
-  }
-  .section-s .img-container {
-    width: 100%;
-  }
-}
-
 .section-p {
   display: flex;
   flex-direction: row-reverse;
@@ -400,11 +427,11 @@ footer div a img:hover {
   transform: scale(105%);
 }
 
-header .navbar .container-fluid .list-items ul, .content-h, .content-h .title .subtitle {
+header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   display: flex;
 }
 
-.section-s, .section-p, .section-e, .section-c {
+.section-p, .section-e, .section-c {
   height: 100vh;
 }
 

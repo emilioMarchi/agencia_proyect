@@ -1,5 +1,4 @@
 .content-h {
-    @extend %flex;
     align-items: center;
     height: 100vh;
     .title {
@@ -11,57 +10,56 @@
           );
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-
-        h2 {
-            font-size: 5rem;
-            line-height: 1;
+          
+          h2 {
+              font-size: 5rem;
+              line-height: 1;
+              @media only screen and (max-width: 992px) {
+                  font-size: 4rem;
+                }
+                @media only screen and (max-width: 425px) {
+                    font-size: 2.7rem;
+                    font-weight: 600;
+                    padding-top: 3rem;
+                    text-align: center;
+                }
         }
         
         .subtitle {
             @extend %flex;
+            width: 100%;
             align-items: center;
             h1 {
                 font-family: 'Roboto Mono';
                 font-weight: 400;
                 letter-spacing: 10;
                 line-height: 1.1;
+                @media only screen and (max-width: 425px) {
+                    font-size: 1.5rem;
+                }
             }
             img{
                 height: 12rem;
+                @media only screen and (max-width: 425px) {
+                    height: 7rem;
+                }
+            }
+            @media only screen and (max-width: 425px) {
+                justify-content: center;
             }
         }
     }
     .img-home {
         text-align: center;
         img{
-            width: 70%;
-            
+            width: 25rem;
+            margin-left: auto;
+            margin-right: auto;
             @media only screen and (max-width: 992px) {
-                width: 40%;
+                width: 27rem;
             }
-        }
-
-        
-    }
-    @media only screen and (max-width: 768px) {
-        
-        .title {
-            h2 {
-                font-size: 6rem;
-            }
-        }
-        
-    }
-    @media only screen and (max-width: 425px) {
-        
-        .title {
-            h2 {
-                font-size: 3.5rem;
-            }
-            .subtitle {
-                img {
-                    height: 8rem;
-                }
+            @media only screen and (max-width: 425px) {
+                width: 15rem;
             }
         }
 
