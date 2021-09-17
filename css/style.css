@@ -65,7 +65,7 @@ header .nav img {
 }
 header .nav .navbar-toggler .navbar-toggler-icon {
   margin: 0 0.5rem;
-  background-image: url("/images/menu-icon.png");
+  background-image: url("images/menu-icon.png");
 }
 
 .content-h {
