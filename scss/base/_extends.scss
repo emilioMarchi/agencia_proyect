@@ -29,6 +29,11 @@
     background-color: rgba(122, 37, 156, 0.719);
     backdrop-filter: blur(5px);
     margin-top: 2rem;
+    @media only screen and (min-width: 600px) and (max-width: 992px) {
+        padding: 1rem 2rem;
+        font-size: 2rem;
+        border-radius: 3rem;
+    }
 }
 
 %navbar {

@@ -1,11 +1,19 @@
 {
-  "name": "proyect",
+  "name": "agencia_proyect",
   "version": "1.0.0",
-  "description": "",
+  "description": "Agencia de soluciones tecnológicas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Emilio Marchi",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilioMarchi/agencia_proyect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emilioMarchi/agencia_proyect/issues"
+  },
+  "homepage": "https://github.com/emilioMarchi/agencia_proyect#readme"
 }
