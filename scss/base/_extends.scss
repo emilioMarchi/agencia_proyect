@@ -71,19 +71,16 @@
     
 }
 %footer {
-    display: flex;
-    justify-content: center;
-    width: 45%;
-    margin: 1rem;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
+    padding: 0.1rem;
     background-color: rgba(24, 2, 16, 0.233);
     backdrop-filter: blur(20px);
     border-radius: 0.5rem;
 
     div {
-
+        margin: 1rem;
         a {
             img {
                 @media only screen and (max-width: 425px) {
@@ -94,19 +91,3 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
-    %h3 {
-        font-size: 3.5rem;
-        font-weight: 700;
-    }
-    %h5 {
-        font-size: 2.2rem;
-        font-weight: 600;
-    }
-
-    %card {
-        .btn{
-            font-size: 1rem;
-        }
-    }
-}

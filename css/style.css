@@ -416,6 +416,10 @@ footer div a img {
 footer div a img:hover {
   transform: scale(105%);
 }
+footer div p {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
 
 header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   display: flex;
@@ -445,16 +449,16 @@ header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  width: 45%;
-  margin: 1rem;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem;
+  padding: 0.1rem;
   background-color: rgba(24, 2, 16, 0.233);
   backdrop-filter: blur(20px);
   border-radius: 0.5rem;
+}
+footer div {
+  margin: 1rem;
 }
 @media only screen and (max-width: 425px) {
   footer div a img {
