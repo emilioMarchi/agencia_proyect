@@ -416,9 +416,20 @@ footer div a img {
 footer div a img:hover {
   transform: scale(105%);
 }
+@media only screen and (min-width: 425px) and (max-width: 922px) {
+  footer div a img {
+    width: 2rem;
+  }
+}
 footer div p {
   font-size: 0.8rem;
   font-weight: 200;
+}
+@media only screen and (min-width: 425px) and (max-width: 922px) {
+  footer div p {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
 }
 
 header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
