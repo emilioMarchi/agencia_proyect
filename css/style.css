@@ -432,12 +432,72 @@ footer div p {
   }
 }
 
+.services-1 {
+  align-items: center;
+}
+.services-1 .title {
+  align-items: center;
+}
+.services-1 .title h1 {
+  font-size: 4rem;
+  line-height: 0.9;
+}
+.services-1 .title h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.services-1 .img-logo {
+  width: 12rem;
+  position: absolute;
+  top: 60vh;
+  left: 13vw;
+}
+.services-1 .content-img img {
+  width: 30rem;
+}
+
+.services-2 {
+  background: linear-gradient(to right, #0e0b18, #270a2e);
+  border-radius: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: 1rem 0;
+}
+.services-2 .title {
+  align-items: center;
+  text-align: center;
+}
+.services-2 .title h2 {
+  height: 10rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1;
+  text-align: end;
+}
+.services-2 .title h3 {
+  font-weight: 300;
+}
+.services-2 .cards-services {
+  text-align: center;
+}
+.services-2 .cards-services img {
+  width: 10rem;
+}
+.services-2 .cards-services h4 {
+  font-weight: 300;
+}
+
 header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   display: flex;
 }
 
 .section-c {
   height: 100vh;
+}
+
+.services-2 .cards-services h5 {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .section-s .img-container .btn-s button, .section-p .img-container .btn-p button, .section-e .img-container .btn-e button {
@@ -457,6 +517,31 @@ header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
     font-size: 2rem;
     border-radius: 3rem;
   }
+}
+
+.services-2 .cards-services {
+  background-color: rgba(63, 10, 43, 0.185);
+  backdrop-filter: blur(10px);
+  align-items: center;
+  transition: all 0.5s;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.services-2 .cards-services img {
+  max-width: 60%;
+  transition: all 0.6s;
+}
+.services-2 .cards-services .btn {
+  padding: 1rem;
+  color: blanchedalmond;
+  background-color: rgba(31, 10, 36, 0.24);
+}
+.services-2 .cards-services:hover {
+  transform: scale(105%);
+  background-color: rgba(59, 24, 39, 0.521);
+}
+.services-2 .cards-services:hover img {
+  transform: scale(110%);
 }
 
 footer {
