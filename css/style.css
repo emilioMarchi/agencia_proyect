@@ -696,6 +696,7 @@ footer div p {
 .planes-1 {
   align-items: center;
   --bs-gutter-x: 0rem;
+  margin-bottom: 10rem;
 }
 .planes-1 .title {
   background: linear-gradient(to right, #cffcfc, #8985ad);
