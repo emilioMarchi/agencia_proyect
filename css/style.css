@@ -66,7 +66,7 @@ header .nav img {
 }
 header .nav .navbar-toggler .navbar-toggler-icon {
   margin: 0 0.5rem;
-  background-image: url("images/menu-icon.png");
+  background-image: url("/images/menu-icon.png");
 }
 
 .content-h {
@@ -630,8 +630,8 @@ footer div p {
 }
 @media only screen and (max-width: 992px) {
   .services-2 .title h2 {
-    font-size: 3rem;
-    text-align: inherit;
+    font-size: 2.9rem;
+    text-align: start;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -658,21 +658,32 @@ footer div p {
 }
 @media only screen and (max-width: 992px) {
   .services-2 .title {
+    margin: 0 0.5rem;
     margin-bottom: 3rem;
   }
 }
-.services-2 .cards-services {
+.services-2 .cards-content {
+  width: 100%;
+}
+.services-2 .cards-content .cards-services {
   text-align: center;
   height: 50%;
 }
-.services-2 .cards-services img {
+.services-2 .cards-content .cards-services img {
   width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
 }
-.services-2 .cards-services h4 {
+.services-2 .cards-content .cards-services h4 {
   font-weight: 400;
 }
-.services-2 .cards-services p {
+.services-2 .cards-content .cards-services p {
   display: none;
+}
+@media only screen and (max-width: 992px) {
+  .services-2 .cards-content .cards-services {
+    margin: 2rem;
+  }
 }
 
 .planes-1 {
@@ -885,7 +896,7 @@ header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   height: 100vh;
 }
 
-.services-2 .cards-services h5, .planes-2 .cards-planes h5 {
+.services-2 .cards-content .cards-services h5, .planes-2 .cards-planes h5 {
   font-size: 2rem;
   font-weight: 600;
 }
@@ -909,7 +920,7 @@ header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   }
 }
 
-.services-2 .cards-services, .planes-2 .cards-planes {
+.services-2 .cards-content .cards-services, .planes-2 .cards-planes {
   background-color: rgba(63, 10, 43, 0.185);
   backdrop-filter: blur(10px);
   align-items: center;
@@ -917,20 +928,15 @@ header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   margin: 0.5rem;
   padding: 0.5rem;
 }
-.services-2 .cards-services img, .planes-2 .cards-planes img {
+.services-2 .cards-content .cards-services img, .planes-2 .cards-planes img {
   max-width: 60%;
   transition: all 0.6s;
 }
-.services-2 .cards-services .btn, .planes-2 .cards-planes .btn {
-  padding: 1rem;
-  color: blanchedalmond;
-  background-color: rgba(31, 10, 36, 0.24);
-}
-.services-2 .cards-services:hover, .planes-2 .cards-planes:hover {
+.services-2 .cards-content .cards-services:hover, .planes-2 .cards-planes:hover {
   transform: scale(105%);
   background-color: rgba(59, 24, 39, 0.521);
 }
-.services-2 .cards-services:hover img, .planes-2 .cards-planes:hover img {
+.services-2 .cards-content .cards-services:hover img, .planes-2 .cards-planes:hover img {
   transform: scale(110%);
 }
 

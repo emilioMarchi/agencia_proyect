@@ -55,11 +55,6 @@
     h5 {
         @extend %h5;
     }
-    .btn {
-        padding: 1rem;
-        color: blanchedalmond;
-        background-color: rgba(31, 10, 36, 0.24);
-    }
     &:hover {
         img{
             transform: scale(110%);

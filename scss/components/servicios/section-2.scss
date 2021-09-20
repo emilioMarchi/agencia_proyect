@@ -16,8 +16,8 @@
             line-height: 1;
             text-align: end;
             @media only screen and (max-width: 992px) {
-                font-size: 3rem;
-                text-align: inherit;
+                font-size: 2.9rem;
+                text-align: start;
             }
             @media only screen and (max-width: 425px) {
                 font-size: 2rem;
@@ -37,21 +37,30 @@
             }
         }
         @media only screen and (max-width: 992px) {
+            margin: 0 0.5rem;
             margin-bottom: 3rem;
         }
     }
-    .cards-services {
-        @extend %card;
-        text-align: center;
-        height: 50%;
-        img {
-            width: 10rem;
-        }
-        h4 {
-            font-weight: 400;
-        }
-        p {
-            display: none;
+    .cards-content {
+        width: 100%;
+        .cards-services {
+            @extend %card;
+            text-align: center;
+            height: 50%;
+            img {
+                width: 10rem;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h4 {
+                font-weight: 400;
+            }
+            p {
+                display: none;
+            }
+            @media only screen and (max-width: 992px) {
+                margin: 2rem;
+            }
         }
     }
 }
