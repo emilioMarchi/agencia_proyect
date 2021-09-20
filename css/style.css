@@ -869,14 +869,29 @@ footer div p {
   height: 50%;
 }
 .planes-2 .cards-content .cards-planes img {
-  width: 10rem;
+  width: 5rem;
 }
 .planes-2 .cards-content .cards-planes h4 {
   font-weight: 400;
 }
+@media only screen and (min-width: 425px) and (max-width: 992px) {
+  .planes-2 .cards-content .cards-planes h4 {
+    font-size: 2rem;
+  }
+}
 .planes-2 .cards-content .cards-planes p {
-  font-weight: 200;
   display: none;
+  font-weight: 300;
+}
+@media only screen and (min-width: 425px) and (max-width: 992px) {
+  .planes-2 .cards-content .cards-planes p {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .planes-2 .cards-content .cards-planes {
+    margin: 2rem;
+  }
 }
 
 header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
