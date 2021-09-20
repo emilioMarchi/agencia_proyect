@@ -1,0 +1,80 @@
+.services-1 {
+    align-items: center;
+    .title {
+        background: linear-gradient(
+            to right, 
+            hsl(899 90% 90%), 
+            hsl(247 20% 60%)
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        align-items: center;
+        z-index: 2;
+        h1 {
+            font-size: 4rem;
+            line-height: 1;
+        }
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 300;
+        }
+        @media only screen and (max-width: 992px) {
+            padding-top: 2rem;
+        }
+        
+    }
+    .img-logo {
+        width: 12rem;
+        position: absolute;
+        top: 60%;
+        left: 37%;
+        @media only screen and (min-width: 425px) and (max-width: 992px){
+            width: 17rem;
+            top: 25%;
+            left: 40%;
+        }
+    }
+    .content-img {
+        img {
+            width: 30rem;
+            @media only screen and (max-width: 992px) {
+                padding-top: 4rem;
+                width: 45rem;
+            }
+        }
+    }
+    .arrow {
+        text-align: center;
+        i {
+            font-size: 2.5rem;
+            color:white;
+            position: absolute;
+            top: 90vh;
+            
+            @keyframes click {
+                from {font-size: 2.5rem;}
+                to {font-size: 3rem;}
+            }
+            &:hover {
+                animation-name: click;
+                animation-duration: 0.5s;
+                animation-iteration-count: 2;
+                animation-direction: alternate;
+            }
+            @media only screen and (max-width: 992px) {
+                font-size: 3rem;
+                @keyframes click {
+                    from {font-size: 3rem;}
+                    to {font-size: 3.5rem;}
+                }
+                &:hover {
+                    animation-name: click;
+                    animation-duration: 0.5s;
+                    animation-iteration-count: 2;
+                    animation-direction: alternate;
+                }
+            }
+        }
+        
+    }
+}

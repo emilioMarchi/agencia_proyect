@@ -1,0 +1,104 @@
+.content-h {
+    align-items: center;
+    height: 100vh;
+    .title {
+
+        background: linear-gradient(
+            to right, 
+            hsl(899 90% 90%), 
+            hsl(247 20% 60%)
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          
+          h2 {
+              font-size: 5rem;
+              line-height: 1;
+              @media only screen and (max-width: 992px) {
+                  font-size: 4.8rem;
+                }
+                @media only screen and (max-width: 425px) {
+                    font-size: 2.7rem;
+                    font-weight: 600;
+                    padding-top: 3rem;
+                    text-align: center;
+                }
+        }
+        
+        .subtitle {
+            @extend %flex;
+            width: 100%;
+            align-items: center;
+            h1 {
+                font-family: 'Roboto Mono';
+                font-weight: 400;
+                line-height: 1.1;
+                @media only screen and (max-width: 425px) {
+                    font-size: 1.5rem;
+                }
+            }
+            img{
+                height: 12rem;
+                @media only screen and (max-width: 425px) {
+                    height: 7rem;
+                }
+            }
+            @media only screen and (max-width: 425px) {
+                justify-content: center;
+            }
+        }
+    }
+    .img-home {
+        text-align: center;
+        img{
+            width: 25rem;
+            margin-left: auto;
+            margin-right: auto;
+            @media only screen and (max-width: 992px) {
+                width: 27rem;
+            }
+            @media only screen and (max-width: 425px) {
+                width: 15rem;
+            }
+        }
+
+        
+    }
+    .arrow {
+        text-align: center;
+        i {
+            font-size: 2.5rem;
+            color:white;
+            position: fixed;
+            top: 90vh;
+            
+            @keyframes click {
+                from {font-size: 2.5rem;}
+                to {font-size: 3rem;}
+            }
+            &:hover {
+                animation-name: click;
+                animation-duration: 0.5s;
+                animation-iteration-count: 2;
+                animation-direction: alternate;
+            }
+            @media only screen and (max-width: 992px) {
+                font-size: 3rem;
+                @keyframes click {
+                    from {font-size: 3rem;}
+                    to {font-size: 3.5rem;}
+                }
+                &:hover {
+                    animation-name: click;
+                    animation-duration: 0.5s;
+                    animation-iteration-count: 2;
+                    animation-direction: alternate;
+                }
+            }
+        }
+        
+    }
+}
+
+
+

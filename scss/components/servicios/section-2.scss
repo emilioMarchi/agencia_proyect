@@ -1,0 +1,46 @@
+.services-2 {
+    background: linear-gradient(
+    to right, 
+    rgb(14, 11, 24),
+    rgb(39, 10, 46) 
+    );
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin: 1rem 0;
+    .title {
+        align-items: center;
+        text-align: center;
+        h2 {
+            height: 10rem;
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: 1;
+            text-align: end;
+            @media only screen and (max-width: 992px) {
+                font-size: 3rem;
+                text-align: inherit;
+            }
+        }
+        h3 {
+            font-weight: 300;
+            @media only screen and (max-width: 992px) {
+                font-size: 2.2rem;
+                text-align: inherit;
+            }
+        }
+        @media only screen and (max-width: 992px) {
+            margin-bottom: 3rem;
+        }
+    }
+    .cards-services {
+        @extend %card;
+        text-align: center;
+        img {
+            width: 10rem;
+        }
+        h4 {
+            font-weight: 300;
+        }
+    }
+}
