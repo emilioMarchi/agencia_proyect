@@ -19,6 +19,7 @@ body {
   }
 }
 main section {
+  width: 100%;
   padding: 10% 0;
 }
 
@@ -145,7 +146,7 @@ header .nav .navbar-toggler .navbar-toggler-icon {
 .content-h .arrow i {
   font-size: 2.5rem;
   color: white;
-  position: fixed;
+  position: absolute;
   top: 90vh;
 }
 @keyframes click {
@@ -487,13 +488,30 @@ footer div p {
   font-size: 4rem;
   line-height: 1;
 }
+@media only screen and (max-width: 425px) {
+  .services-1 .title h1 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+}
 .services-1 .title h2 {
   font-size: 2.5rem;
   font-weight: 300;
 }
+@media only screen and (max-width: 425px) {
+  .services-1 .title h2 {
+    font-size: 2rem;
+    text-align: start;
+  }
+}
 @media only screen and (max-width: 992px) {
   .services-1 .title {
     padding-top: 2rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .services-1 .title {
+    padding-top: 4rem;
   }
 }
 .services-1 .img-logo {
@@ -509,6 +527,13 @@ footer div p {
     left: 40%;
   }
 }
+@media only screen and (max-width: 425px) {
+  .services-1 .img-logo {
+    width: 10rem;
+    top: 38%;
+    left: 48%;
+  }
+}
 .services-1 .content-img img {
   width: 30rem;
 }
@@ -516,6 +541,12 @@ footer div p {
   .services-1 .content-img img {
     padding-top: 4rem;
     width: 45rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .services-1 .content-img img {
+    width: 20rem;
+    padding-top: 2rem;
   }
 }
 .services-1 .arrow {
@@ -564,8 +595,7 @@ footer div p {
 .services-2 {
   background: linear-gradient(to right, #0e0b18, #270a2e);
   border-radius: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding: 5rem 0.5rem;
   margin: 1rem 0;
 }
 .services-2 .title {
@@ -585,6 +615,12 @@ footer div p {
     text-align: inherit;
   }
 }
+@media only screen and (max-width: 425px) {
+  .services-2 .title h2 {
+    font-size: 2rem;
+    height: 8rem;
+  }
+}
 .services-2 .title h3 {
   font-weight: 300;
 }
@@ -592,6 +628,11 @@ footer div p {
   .services-2 .title h3 {
     font-size: 2.2rem;
     text-align: inherit;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .services-2 .title h3 {
+    font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 992px) {
