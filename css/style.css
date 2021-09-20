@@ -663,91 +663,98 @@ footer div p {
 }
 .services-2 .cards-services {
   text-align: center;
+  height: 50%;
 }
 .services-2 .cards-services img {
   width: 10rem;
 }
+.services-2 .cards-services h4 {
+  font-weight: 400;
+}
+.services-2 .cards-services p {
+  display: none;
+}
 
-.services-1 {
+.planes-1 {
   align-items: center;
   --bs-gutter-x: 0rem;
 }
-.services-1 .title {
+.planes-1 .title {
   background: linear-gradient(to right, #cffcfc, #8985ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   align-items: center;
   z-index: 2;
 }
-.services-1 .title h1 {
+.planes-1 .title h1 {
   font-size: 3.8rem;
   line-height: 1;
 }
 @media only screen and (max-width: 425px) {
-  .services-1 .title h1 {
+  .planes-1 .title h1 {
     font-size: 2.4rem;
     text-align: center;
   }
 }
-.services-1 .title h2 {
+.planes-1 .title h2 {
   font-size: 2.5rem;
   font-weight: 300;
 }
 @media only screen and (max-width: 425px) {
-  .services-1 .title h2 {
+  .planes-1 .title h2 {
     font-size: 2rem;
     text-align: start;
   }
 }
 @media only screen and (max-width: 992px) {
-  .services-1 .title {
+  .planes-1 .title {
     padding-top: 2rem;
   }
 }
 @media only screen and (max-width: 425px) {
-  .services-1 .title {
+  .planes-1 .title {
     padding-top: 4rem;
   }
 }
-.services-1 .img-logo {
+.planes-1 .img-logo {
   width: 12rem;
   position: absolute;
   top: 60%;
   left: 37%;
 }
 @media only screen and (min-width: 425px) and (max-width: 992px) {
-  .services-1 .img-logo {
+  .planes-1 .img-logo {
     width: 17rem;
     top: 25%;
     left: 40%;
   }
 }
 @media only screen and (max-width: 425px) {
-  .services-1 .img-logo {
+  .planes-1 .img-logo {
     width: 10rem;
     top: 38%;
     left: 48%;
   }
 }
-.services-1 .content-img img {
+.planes-1 .content-img img {
   width: 30rem;
 }
 @media only screen and (max-width: 992px) {
-  .services-1 .content-img img {
+  .planes-1 .content-img img {
     padding-top: 4rem;
     width: 45rem;
   }
 }
 @media only screen and (max-width: 425px) {
-  .services-1 .content-img img {
+  .planes-1 .content-img img {
     width: 20rem;
     padding-top: 2rem;
   }
 }
-.services-1 .arrow {
+.planes-1 .arrow {
   text-align: center;
 }
-.services-1 .arrow i {
+.planes-1 .arrow i {
   font-size: 2.5rem;
   color: white;
   position: absolute;
@@ -761,14 +768,14 @@ footer div p {
     font-size: 3rem;
   }
 }
-.services-1 .arrow i:hover {
+.planes-1 .arrow i:hover {
   animation-name: click;
   animation-duration: 0.5s;
   animation-iteration-count: 2;
   animation-direction: alternate;
 }
 @media only screen and (max-width: 992px) {
-  .services-1 .arrow i {
+  .planes-1 .arrow i {
     font-size: 3rem;
   }
   @keyframes click {
@@ -779,7 +786,7 @@ footer div p {
       font-size: 3.5rem;
     }
   }
-  .services-1 .arrow i:hover {
+  .planes-1 .arrow i:hover {
     animation-name: click;
     animation-duration: 0.5s;
     animation-iteration-count: 2;
@@ -787,7 +794,7 @@ footer div p {
   }
 }
 @media only screen and (max-width: 425px) {
-  .services-1 .arrow i {
+  .planes-1 .arrow i {
     font-size: 2rem;
   }
   @keyframes click {
@@ -798,7 +805,7 @@ footer div p {
       font-size: 2.5rem;
     }
   }
-  .services-1 .arrow i:hover {
+  .planes-1 .arrow i:hover {
     animation-name: click;
     animation-duration: 0.5s;
     animation-iteration-count: 2;
@@ -806,16 +813,16 @@ footer div p {
   }
 }
 
-.services-2 {
+.planes-2 {
   background: linear-gradient(to right, #0e0b18, #270a2e);
   border-radius: 1rem;
   padding: 5rem 0.5rem;
   margin: 1rem 0;
 }
-.services-2 .title {
+.planes-2 .title {
   align-items: center;
 }
-.services-2 .title h2 {
+.planes-2 .title h2 {
   height: 10rem;
   font-size: 3rem;
   font-weight: 600;
@@ -823,49 +830,51 @@ footer div p {
   text-align: end;
 }
 @media only screen and (max-width: 992px) {
-  .services-2 .title h2 {
+  .planes-2 .title h2 {
     font-size: 3rem;
     text-align: inherit;
   }
 }
 @media only screen and (max-width: 425px) {
-  .services-2 .title h2 {
+  .planes-2 .title h2 {
     font-size: 2rem;
     height: 8rem;
   }
 }
-.services-2 .title h3 {
+.planes-2 .title h3 {
   font-size: 1.5rem;
   font-weight: 300;
   text-align: start;
 }
 @media only screen and (max-width: 992px) {
-  .services-2 .title h3 {
+  .planes-2 .title h3 {
     font-size: 2.2rem;
     text-align: inherit;
   }
 }
 @media only screen and (max-width: 425px) {
-  .services-2 .title h3 {
+  .planes-2 .title h3 {
     font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 992px) {
-  .services-2 .title {
+  .planes-2 .title {
     margin-bottom: 3rem;
   }
 }
-.services-2 .cards-services {
+.planes-2 .cards-planes {
   text-align: center;
+  height: 50%;
 }
-.services-2 .cards-services img {
+.planes-2 .cards-planes img {
   width: 10rem;
 }
-.services-2 .cards-services h4 {
-  font-weight: 300;
+.planes-2 .cards-planes h4 {
+  font-weight: 400;
 }
-.services-2 .cards-services p {
+.planes-2 .cards-planes p {
   font-weight: 200;
+  display: none;
 }
 
 header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
@@ -876,7 +885,7 @@ header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   height: 100vh;
 }
 
-.services-2 .cards-services h5 {
+.services-2 .cards-services h5, .planes-2 .cards-planes h5 {
   font-size: 2rem;
   font-weight: 600;
 }
@@ -900,7 +909,7 @@ header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   }
 }
 
-.services-2 .cards-services {
+.services-2 .cards-services, .planes-2 .cards-planes {
   background-color: rgba(63, 10, 43, 0.185);
   backdrop-filter: blur(10px);
   align-items: center;
@@ -908,20 +917,20 @@ header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   margin: 0.5rem;
   padding: 0.5rem;
 }
-.services-2 .cards-services img {
+.services-2 .cards-services img, .planes-2 .cards-planes img {
   max-width: 60%;
   transition: all 0.6s;
 }
-.services-2 .cards-services .btn {
+.services-2 .cards-services .btn, .planes-2 .cards-planes .btn {
   padding: 1rem;
   color: blanchedalmond;
   background-color: rgba(31, 10, 36, 0.24);
 }
-.services-2 .cards-services:hover {
+.services-2 .cards-services:hover, .planes-2 .cards-planes:hover {
   transform: scale(105%);
   background-color: rgba(59, 24, 39, 0.521);
 }
-.services-2 .cards-services:hover img {
+.services-2 .cards-services:hover img, .planes-2 .cards-planes:hover img {
   transform: scale(110%);
 }
 

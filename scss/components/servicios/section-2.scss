@@ -43,8 +43,15 @@
     .cards-services {
         @extend %card;
         text-align: center;
+        height: 50%;
         img {
             width: 10rem;
+        }
+        h4 {
+            font-weight: 400;
+        }
+        p {
+            display: none;
         }
     }
 }
