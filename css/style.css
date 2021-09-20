@@ -139,6 +139,48 @@ header .nav .navbar-toggler .navbar-toggler-icon {
     width: 15rem;
   }
 }
+.content-h .arrow {
+  text-align: center;
+}
+.content-h .arrow i {
+  font-size: 2.5rem;
+  color: white;
+  position: absolute;
+  top: 90vh;
+}
+@keyframes click {
+  from {
+    font-size: 2.5rem;
+  }
+  to {
+    font-size: 3rem;
+  }
+}
+.content-h .arrow i:hover {
+  animation-name: click;
+  animation-duration: 0.5s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+@media only screen and (max-width: 992px) {
+  .content-h .arrow i {
+    font-size: 3rem;
+  }
+  @keyframes click {
+    from {
+      font-size: 3rem;
+    }
+    to {
+      font-size: 3.5rem;
+    }
+  }
+  .content-h .arrow i:hover {
+    animation-name: click;
+    animation-duration: 0.5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+}
 
 .section-s {
   align-items: center;
@@ -457,8 +499,8 @@ footer div p {
 .services-1 .img-logo {
   width: 12rem;
   position: absolute;
-  top: 55%;
-  left: 35%;
+  top: 60%;
+  left: 37%;
 }
 @media only screen and (min-width: 425px) and (max-width: 992px) {
   .services-1 .img-logo {
