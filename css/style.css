@@ -476,6 +476,7 @@ footer div p {
 
 .services-1 {
   align-items: center;
+  --bs-gutter-x: 0rem;
 }
 .services-1 .title {
   background: linear-gradient(to right, #cffcfc, #8985ad);
@@ -582,6 +583,25 @@ footer div p {
     }
     to {
       font-size: 3.5rem;
+    }
+  }
+  .services-1 .arrow i:hover {
+    animation-name: click;
+    animation-duration: 0.5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .services-1 .arrow i {
+    font-size: 2rem;
+  }
+  @keyframes click {
+    from {
+      font-size: 2rem;
+    }
+    to {
+      font-size: 2.5rem;
     }
   }
   .services-1 .arrow i:hover {
