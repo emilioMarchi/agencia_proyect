@@ -869,7 +869,8 @@ footer div p {
   height: 50%;
 }
 .planes-2 .cards-content .cards-planes img {
-  width: 5rem;
+  width: 7rem;
+  margin: 1rem;
 }
 .planes-2 .cards-content .cards-planes h4 {
   font-weight: 400;
@@ -894,6 +895,207 @@ footer div p {
   }
 }
 
+.equipo-1 {
+  align-items: center;
+  --bs-gutter-x: 0rem;
+}
+.equipo-1 .title {
+  background: linear-gradient(to right, #cffcfc, #8985ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  z-index: 2;
+}
+.equipo-1 .title h1 {
+  font-size: 3.8rem;
+  line-height: 1;
+}
+@media only screen and (max-width: 425px) {
+  .equipo-1 .title h1 {
+    font-size: 2.2rem;
+    text-align: start;
+  }
+}
+.equipo-1 .title h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+@media only screen and (max-width: 425px) {
+  .equipo-1 .title h2 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .equipo-1 .title {
+    padding-top: 2rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .equipo-1 .title {
+    padding-top: 4rem;
+  }
+}
+.equipo-1 .content-img img {
+  width: 30rem;
+}
+@media only screen and (max-width: 992px) {
+  .equipo-1 .content-img img {
+    padding-top: 4rem;
+    width: 45rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .equipo-1 .content-img img {
+    width: 21.5rem;
+    padding: 1rem 0;
+  }
+}
+.equipo-1 .arrow {
+  text-align: center;
+}
+.equipo-1 .arrow i {
+  font-size: 2.5rem;
+  color: white;
+  position: absolute;
+  top: 90vh;
+}
+@keyframes click {
+  from {
+    font-size: 2.5rem;
+  }
+  to {
+    font-size: 3rem;
+  }
+}
+.equipo-1 .arrow i:hover {
+  animation-name: click;
+  animation-duration: 0.5s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+@media only screen and (max-width: 992px) {
+  .equipo-1 .arrow i {
+    font-size: 3rem;
+  }
+  @keyframes click {
+    from {
+      font-size: 3rem;
+    }
+    to {
+      font-size: 3.5rem;
+    }
+  }
+  .equipo-1 .arrow i:hover {
+    animation-name: click;
+    animation-duration: 0.5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .equipo-1 .arrow i {
+    font-size: 2rem;
+  }
+  @keyframes click {
+    from {
+      font-size: 2rem;
+    }
+    to {
+      font-size: 2.5rem;
+    }
+  }
+  .equipo-1 .arrow i:hover {
+    animation-name: click;
+    animation-duration: 0.5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+  }
+}
+
+.equipo-2 {
+  background: linear-gradient(to right, #0e0b18, #270a2e);
+  border-radius: 1rem;
+  padding: 5rem 0.5rem;
+  margin: 2rem 0;
+}
+.equipo-2 .title {
+  align-items: center;
+}
+.equipo-2 .title h2 {
+  height: 10rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1;
+  text-align: end;
+}
+@media only screen and (max-width: 992px) {
+  .equipo-2 .title h2 {
+    font-size: 3rem;
+    text-align: inherit;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .equipo-2 .title h2 {
+    font-size: 2rem;
+    height: 8rem;
+  }
+}
+.equipo-2 .title h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: start;
+}
+@media only screen and (max-width: 992px) {
+  .equipo-2 .title h3 {
+    font-size: 2.2rem;
+    text-align: inherit;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .equipo-2 .title h3 {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .equipo-2 .title {
+    margin: 0 0.5rem;
+    margin-bottom: 3rem;
+  }
+}
+.equipo-2 .cards-content {
+  width: 100%;
+}
+.equipo-2 .cards-content .cards-planes {
+  text-align: center;
+  height: 50%;
+}
+.equipo-2 .cards-content .cards-planes img {
+  width: 5rem;
+}
+.equipo-2 .cards-content .cards-planes h4 {
+  font-weight: 400;
+}
+@media only screen and (min-width: 425px) and (max-width: 992px) {
+  .equipo-2 .cards-content .cards-planes h4 {
+    font-size: 2rem;
+  }
+}
+.equipo-2 .cards-content .cards-planes p {
+  display: none;
+  font-weight: 300;
+}
+@media only screen and (min-width: 425px) and (max-width: 992px) {
+  .equipo-2 .cards-content .cards-planes p {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .equipo-2 .cards-content .cards-planes {
+    margin: 2rem;
+  }
+}
+
 header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   display: flex;
 }
@@ -902,7 +1104,7 @@ header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   height: 100vh;
 }
 
-.services-2 .cards-content .cards-services h5, .planes-2 .cards-content .cards-planes h5 {
+.services-2 .cards-content .cards-services h5, .planes-2 .cards-content .cards-planes h5, .equipo-2 .cards-content .cards-planes h5 {
   font-size: 2rem;
   font-weight: 600;
 }
@@ -926,7 +1128,7 @@ header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   }
 }
 
-.services-2 .cards-content .cards-services, .planes-2 .cards-content .cards-planes {
+.services-2 .cards-content .cards-services, .planes-2 .cards-content .cards-planes, .equipo-2 .cards-content .cards-planes {
   background-color: rgba(63, 10, 43, 0.185);
   backdrop-filter: blur(10px);
   align-items: center;
@@ -934,15 +1136,15 @@ header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   margin: 0.5rem;
   padding: 0.5rem;
 }
-.services-2 .cards-content .cards-services img, .planes-2 .cards-content .cards-planes img {
+.services-2 .cards-content .cards-services img, .planes-2 .cards-content .cards-planes img, .equipo-2 .cards-content .cards-planes img {
   max-width: 60%;
   transition: all 0.6s;
 }
-.services-2 .cards-content .cards-services:hover, .planes-2 .cards-content .cards-planes:hover {
+.services-2 .cards-content .cards-services:hover, .planes-2 .cards-content .cards-planes:hover, .equipo-2 .cards-content .cards-planes:hover {
   transform: scale(105%);
   background-color: rgba(59, 24, 39, 0.521);
 }
-.services-2 .cards-content .cards-services:hover img, .planes-2 .cards-content .cards-planes:hover img {
+.services-2 .cards-content .cards-services:hover img, .planes-2 .cards-content .cards-planes:hover img, .equipo-2 .cards-content .cards-planes:hover img {
   transform: scale(110%);
 }
 
