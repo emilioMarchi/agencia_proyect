@@ -375,73 +375,71 @@ header .nav .navbar-toggler .navbar-toggler-icon {
 .section-e .img-container .btn-e {
   margin-top: 2rem;
 }
-.section-c {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  padding: 5% 3%;
+.contacto {
+  top: 10%;
 }
-.section-c .title-c {
-  width: 50%;
+.contacto .title {
+  width: 100%;
+  height: 100vh;
+}
+.contacto .title .subtitle {
   background: linear-gradient(to right, #cffcfc, #8985ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.section-c .title-c h3 {
+.contacto .title h3 {
   font-size: 2rem;
   font-weight: 600;
   line-height: 1;
 }
-@media only screen and (max-width: 425px) {
-  .section-c .title-c h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1;
+@media only screen and (max-width: 992px) {
+  .contacto .title h3 {
+    font-size: 3rem;
+    font-weight: 500;
   }
 }
-.section-c .title-c h4 {
-  font-size: 2.2rem;
-  font-weight: 300;
-}
 @media only screen and (max-width: 425px) {
-  .section-c .title-c h4 {
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-}
-.section-c .form-container {
-  margin-top: 6rem;
-  padding-right: 6rem;
-  display: flex;
-  justify-content: center;
-}
-.section-c .form-container form {
-  width: 20rem;
-  text-align: center;
-}
-.section-c .form-container form label {
-  font-size: 1.2rem;
-}
-.section-c .form-container form .btn {
-  width: 8rem;
-}
-@media only screen and (max-width: 985px) {
-  .section-c .form-container {
-    display: flex;
-    justify-self: center;
+  .contacto .title h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
     padding-top: 3rem;
   }
 }
-@media only screen and (max-width: 985px) {
-  .section-c {
-    display: block;
-    padding-top: 4rem;
+.contacto .title h4 {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+@media only screen and (max-width: 992px) {
+  .contacto .title h4 {
+    font-size: 2.7rem;
+    font-weight: 300;
   }
-  .section-c .title-c {
-    width: 100%;
+}
+@media only screen and (max-width: 425px) {
+  .contacto .title h4 {
+    font-size: 1.5rem;
+    font-weight: 300;
   }
-  .section-c .form-container {
-    margin-top: 0;
+}
+.contacto .title h4 .form-container {
+  width: 85%;
+  padding: 1rem 0rem;
+}
+.contacto .title h4 .form-container .btn-form {
+  color: black;
+}
+@media only screen and (min-width: 425px) and (max-width: 992px) {
+  .contacto .title {
+    padding-top: 5rem;
+  }
+}
+.contacto .content-img img {
+  width: 27rem;
+  margin-left: 3rem;
+}
+@media only screen and (max-width: 992px) {
+  .contacto .content-img {
+    display: none;
   }
 }
 
@@ -1099,10 +1097,6 @@ footer div p {
 
 header .nav .container-fluid .list-items ul, .content-h .title .subtitle {
   display: flex;
-}
-
-.section-c {
-  height: 100vh;
 }
 
 .services-2 .cards-content .cards-services h5, .planes-2 .cards-content .cards-planes h5, .equipo-2 .cards-content .cards-planes h5 {

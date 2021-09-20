@@ -31,13 +31,13 @@
               <div class="collapse navbar-collapse list-items row-xs-12" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="servicios.html">Servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#home">Planes</a>
+                    <a class="nav-link" href="planes.html">Planes</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="equipo.html">Equipo</a>
@@ -53,38 +53,34 @@
           </nav>
     </header>
     <main class="container">
-        <section class="planes-1 row" id="home">
-            <div class="title col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <h1>Tenemos paquetes de soluciones para vos</h1>
-                <h2 class="col">Contamos con propuestas hechas a la medida de los objetivos de tu marca</h2>            </div>
-            <div class="content-img col">
-                <img src="images/planes/img-planes.png" alt="">
-            </div>
-            <a href="#planes" class="arrow"><i class="fas fa-angle-double-down"></i></a>
-        </section>
-        <section class="planes-2" id="planes">
-            <div class="title row">
-                <h2 class="col-xs-12 col-lg">Empaquetamos soluciones digitales para vos y tu marca</h2>
-                <h3 class="col-xs-12 col-lg">Nuestros paquetes estan diseñados en base a las soluciones digitales más demandadas, integrando nuestras areas profesionales para optimizar el rendimiendo del ecosistema digital de tu marca</h3>
-            </div>
-            <div class="cards-content row">
-                <div class="cards-planes col-lg" id="card-1">
-                    <img src="images/planes/package.png" alt="">
-                    <h4>Paquete Community</h4>
-                    <p>Creamos y optimizamos el ecosistema digital de tu marca integrando herramientas de marketing, desarrollo web y social media</p>
-                </div>
-                <div class="cards-planes col-lg" id="card-2">
-                    <img src="images/planes/package.png" alt="">
-                    <h4>Paquete 3.0</h4>
-                    <p>Creamos y optimizamos el ecosistema digital de tu marca integrando herramientas de marketing, desarrollo web y social media</p>
-                </div>
-                <div class="cards-planes col-lg" id="card-3">
-                    <img src="images/planes/package.png" alt="">
-                    <h4>Paquete height</h4>
-                    <p>Creamos y optimizamos el ecosistema digital de tu marca integrando herramientas de marketing, desarrollo web y social media</p>
-                </div>
-            </div>
-        </section>
+        <section class="contacto row" id="contacto">
+          <div class="title col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="subtitle">
+                <h3>Dejanos tu consulta</h3>
+                <h4 class="col">En breve te vamos a estar contactando</h4>
+            </div>  
+          <div class="form-container">
+            <form>
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombe">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                  
+              </div>
+              <div class="mb-3">
+                <label for="floatingTextarea2" class="form-label">Dejanos tu mensaje</label>
+                <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Enviar</button>
+            </form>
+          </div>
+        </div>    
+          <div class="content-img col">
+              <img src="images/contacto/paloma.png" alt="">
+          </div>
+      </section>
     </main>
     <footer>
       <div>
