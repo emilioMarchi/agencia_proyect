@@ -64,13 +64,13 @@
         }
     }
     .arrow {
-        text-align: center;
+        
         i {
             font-size: 2.5rem;
             color:white;
             position: absolute;
             top: 90vh;
-            
+            left: 50%;
             @keyframes click {
                 from {font-size: 2.5rem;}
                 to {font-size: 3rem;}
