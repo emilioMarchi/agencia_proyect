@@ -9,7 +9,6 @@
     margin: 1rem 0;
     .title {
         align-items: center;
-        text-align: center;
         h2 {
             height: 10rem;
             font-size: 3rem;
@@ -26,7 +25,9 @@
             }
         }
         h3 {
+            font-size: 1.5rem;
             font-weight: 300;
+            text-align: start;
             @media only screen and (max-width: 992px) {
                 font-size: 2.2rem;
                 text-align: inherit;
@@ -44,9 +45,6 @@
         text-align: center;
         img {
             width: 10rem;
-        }
-        h4 {
-            font-weight: 300;
         }
     }
 }
