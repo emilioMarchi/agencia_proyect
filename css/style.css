@@ -480,8 +480,6 @@ footer div p {
   background: linear-gradient(to right, #cffcfc, #8985ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  align-items: center;
-  z-index: 2;
 }
 .services-1 .title h1 {
   font-size: 3.8rem;
@@ -700,8 +698,6 @@ footer div p {
   background: linear-gradient(to right, #cffcfc, #8985ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  align-items: center;
-  z-index: 2;
 }
 .planes-1 .title h1 {
   font-size: 3.8rem;
@@ -895,15 +891,15 @@ footer div p {
 }
 
 .equipo-1 {
-  align-items: center;
   --bs-gutter-x: 0rem;
+  align-items: center;
+  padding-top: 10rem;
+  margin-bottom: 10rem;
 }
 .equipo-1 .title {
   background: linear-gradient(to right, #cffcfc, #8985ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  align-items: center;
-  z-index: 2;
 }
 .equipo-1 .title h1 {
   font-size: 3.8rem;
@@ -1009,6 +1005,16 @@ footer div p {
     animation-duration: 0.5s;
     animation-iteration-count: 2;
     animation-direction: alternate;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .equipo-1 {
+    padding-top: 5rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .equipo-1 {
+    padding-top: 2rem;
   }
 }
 
