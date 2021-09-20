@@ -491,8 +491,8 @@ footer div p {
 }
 @media only screen and (max-width: 425px) {
   .services-1 .title h1 {
-    font-size: 2.4rem;
-    text-align: center;
+    font-size: 2.2rem;
+    text-align: start;
   }
 }
 .services-1 .title h2 {
@@ -501,7 +501,7 @@ footer div p {
 }
 @media only screen and (max-width: 425px) {
   .services-1 .title h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: start;
   }
 }
@@ -517,37 +517,35 @@ footer div p {
 }
 .services-1 .img-logo {
   width: 12rem;
-  position: absolute;
-  top: 60%;
-  left: 37%;
 }
 @media only screen and (min-width: 425px) and (max-width: 992px) {
   .services-1 .img-logo {
     width: 17rem;
-    top: 25%;
-    left: 40%;
   }
 }
 @media only screen and (max-width: 425px) {
   .services-1 .img-logo {
     width: 10rem;
-    top: 38%;
-    left: 48%;
   }
 }
 .services-1 .content-img img {
-  width: 30rem;
+  width: 24rem;
+  margin-left: 4rem;
 }
 @media only screen and (max-width: 992px) {
   .services-1 .content-img img {
-    padding-top: 4rem;
-    width: 45rem;
+    width: 30rem;
+    padding-top: 2.5rem;
+    margin: 0;
+    margin-left: 5rem;
   }
 }
 @media only screen and (max-width: 425px) {
   .services-1 .content-img img {
-    width: 20rem;
-    padding-top: 2rem;
+    width: 18rem;
+    padding: 0;
+    margin: 0;
+    margin-left: 0.8rem;
   }
 }
 .services-1 .arrow {
@@ -703,8 +701,8 @@ footer div p {
 }
 @media only screen and (max-width: 425px) {
   .planes-1 .title h1 {
-    font-size: 2.4rem;
-    text-align: center;
+    font-size: 2.2rem;
+    text-align: start;
   }
 }
 .planes-1 .title h2 {
@@ -713,7 +711,7 @@ footer div p {
 }
 @media only screen and (max-width: 425px) {
   .planes-1 .title h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: start;
   }
 }
@@ -742,9 +740,7 @@ footer div p {
 }
 @media only screen and (max-width: 425px) {
   .planes-1 .img-logo {
-    width: 10rem;
-    top: 38%;
-    left: 48%;
+    display: none;
   }
 }
 .planes-1 .content-img img {
@@ -758,8 +754,8 @@ footer div p {
 }
 @media only screen and (max-width: 425px) {
   .planes-1 .content-img img {
-    width: 20rem;
-    padding-top: 2rem;
+    width: 21rem;
+    padding: 0;
   }
 }
 .planes-1 .arrow {
