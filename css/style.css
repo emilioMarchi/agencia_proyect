@@ -733,8 +733,8 @@ footer div p {
 }
 @media only screen and (max-width: 992px) {
   .planes-1 .content-img img {
-    padding-top: 4rem;
-    width: 45rem;
+    padding-top: 5rem;
+    width: 40rem;
   }
 }
 @media only screen and (max-width: 425px) {
