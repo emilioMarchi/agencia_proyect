@@ -952,8 +952,9 @@ footer div p {
 }
 @media only screen and (max-width: 992px) {
   .equipo-1 .content-img img {
-    padding-top: 4rem;
-    width: 45rem;
+    padding-top: 8rem;
+    padding-left: 4rem;
+    width: 37rem;
   }
 }
 @media only screen and (max-width: 425px) {
