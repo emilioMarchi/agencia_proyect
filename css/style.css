@@ -147,7 +147,7 @@ header .nav .navbar-toggler .navbar-toggler-icon {
   font-size: 2.5rem;
   color: white;
   position: absolute;
-  top: 90vh;
+  top: 85vh;
 }
 @keyframes click {
   from {
@@ -547,7 +547,7 @@ footer div p {
   font-size: 2.5rem;
   color: white;
   position: absolute;
-  top: 90vh;
+  top: 85vh;
   left: 50%;
 }
 @keyframes click {
@@ -764,7 +764,7 @@ footer div p {
   font-size: 2.5rem;
   color: white;
   position: absolute;
-  top: 90vh;
+  top: 85vh;
 }
 @keyframes click {
   from {
@@ -981,7 +981,7 @@ footer div p {
   font-size: 2.5rem;
   color: white;
   position: absolute;
-  top: 90vh;
+  top: 85vh;
 }
 @keyframes click {
   from {
