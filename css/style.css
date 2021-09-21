@@ -422,7 +422,6 @@ header .nav .navbar-toggler .navbar-toggler-icon {
   }
 }
 .contacto .title h4 .form-container {
-  width: 85%;
   padding: 1rem 0rem;
 }
 .contacto .title h4 .form-container .btn-form {
@@ -434,7 +433,7 @@ header .nav .navbar-toggler .navbar-toggler-icon {
   }
 }
 .contacto .content-img img {
-  width: 27rem;
+  width: 25rem;
   margin-left: 3rem;
 }
 @media only screen and (max-width: 992px) {
@@ -692,7 +691,7 @@ footer div p {
 .planes-1 {
   align-items: center;
   --bs-gutter-x: 0rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 .planes-1 .title {
   background: linear-gradient(to right, #cffcfc, #8985ad);
@@ -740,8 +739,22 @@ footer div p {
 }
 @media only screen and (max-width: 425px) {
   .planes-1 .content-img img {
-    width: 21.5rem;
-    padding: 1rem 0;
+    width: 25rem;
+    margin-top: 5rem;
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .planes-1 .content-img img {
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+    width: 19rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .planes-1 .content-img img {
+    margin-top: 0rem;
+    width: 19rem;
   }
 }
 .planes-1 .arrow {
@@ -931,6 +944,9 @@ footer div p {
     padding-top: 4rem;
   }
 }
+.equipo-1 .content-img {
+  width: 100%;
+}
 .equipo-1 .content-img img {
   width: 30rem;
 }
@@ -943,7 +959,19 @@ footer div p {
 @media only screen and (max-width: 425px) {
   .equipo-1 .content-img img {
     width: 21.5rem;
-    padding: 1rem 0;
+    padding-top: 10rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .equipo-1 .content-img img {
+    margin-top: 3rem;
+    padding-top: 0;
+    width: 19rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .equipo-1 .content-img img {
+    margin-top: 0rem;
   }
 }
 .equipo-1 .arrow {
@@ -1076,7 +1104,8 @@ footer div p {
   height: 50%;
 }
 .equipo-2 .cards-content .cards-planes img {
-  width: 5rem;
+  width: 6rem;
+  margin: 1rem;
 }
 .equipo-2 .cards-content .cards-planes h4 {
   font-weight: 400;
